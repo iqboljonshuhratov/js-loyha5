@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bodym {
+  display: flex;
+  min-height: 100vh;
+  background-color: rgba(226, 224, 224, 0.532);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+aside {
+  background-color: white;
+  width: 320px;
+  margin-bottom: 10px;
+  z-index: 1000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+  height: 100vh;
+}
+aside .meniu {
+  padding: 0px;
+}
+aside .meniu li {
+  margin-bottom: 6px;
+}
+aside .meniu li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(226, 224, 224, 0.532);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 14px;
+  padding: 10px 20px;
+}
+aside .meniu li.active a, aside .meniu li:hover a {
+  background-color: rgb(29, 1, 91);
+  color: white;
+}
+
+#rightside {
+  flex: 1;
+}
+
+.Asside1 {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
